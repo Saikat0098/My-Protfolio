@@ -7,6 +7,7 @@ import { Outlet } from 'react-router-dom';
 import SkillsSection from '../Components/SkillsSection';
 import ProjectsSection from '../Components/ProjectsSection';
 import ContactSection from '../Components/ContactSection';
+import Footer from '../Components/Footer';
 
 const Home = () => {
     return (
@@ -33,6 +34,7 @@ const Home = () => {
             <SkillsSection></SkillsSection>
             <ProjectsSection></ProjectsSection>
             <ContactSection></ContactSection>
+            <Footer></Footer>
         </div>
     );
 };

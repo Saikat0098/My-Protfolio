@@ -48,7 +48,7 @@ const SkillsSection = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-black min-h-screen p-8">
+    <div id='skills' className="bg-gradient-to-br from-gray-900 to-black min-h-screen p-8">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -20 }}

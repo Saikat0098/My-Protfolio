@@ -22,6 +22,7 @@
     "react-icons": "^5.4.0",
     "react-intersection-observer": "^9.15.1",
     "react-router-dom": "^7.1.5",
+    "react-scroll": "^1.9.2",
     "sort-by": "^1.2.0",
     "tailwindcss": "^4.0.3",
     "typed.js": "^2.1.0"

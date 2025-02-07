@@ -8,11 +8,14 @@ import AboutMe from "../Components/AboutMe";
      
             {
                 path : '/' , 
-                element : <Home></Home>
+                element : <Home></Home> , 
+                children : [
+                    {
+                        path : 'about' , 
+                        element : <AboutMe></AboutMe>
+                    }
+                 
+                ]
             } ,
-            // {
-            //     path : 'about' , 
-            //     element : <AboutMe></AboutMe>
-            // }
-         
+            
 ])

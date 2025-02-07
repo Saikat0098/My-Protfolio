@@ -64,7 +64,7 @@ const ContactSection = () => {
   };
 
   const ContactCard = ({ icon, title, value, type }) => (
-    <div className="bg-purple-900/40 rounded-xl p-6 transform hover:scale-[1.02] transition-all duration-300">
+    <div id='contact' className="bg-purple-900/40 rounded-xl p-6 transform hover:scale-[1.02] transition-all duration-300">
       <div className="flex items-start space-x-4">
         <div className="bg-pink-500/20 p-3 rounded-lg">
           {icon}

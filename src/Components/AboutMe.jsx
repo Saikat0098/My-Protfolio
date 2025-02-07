@@ -79,7 +79,7 @@ const AboutMe = () => {
   );
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-black min-h-screen flex items-center justify-center p-6">
+    <div  id='about' className="bg-gradient-to-br from-gray-900 to-black min-h-screen flex items-center justify-center p-6">
       <div className="max-w-5xl w-full bg-[#0c0c1e] rounded-3xl overflow-hidden grid md:grid-cols-[40%_60%] shadow-2xl">
         <div className="relative group">
           <div className="absolute inset-0 bg-gradient-to-br from-pink-600/30 to-blue-600/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

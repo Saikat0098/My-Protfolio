@@ -32,17 +32,10 @@ const PortfolioLanding = () => {
     { Icon: Facebook, href: "https://facebook.com/yourusername", label: "Facebook" }
   ];
 
-  // Function to handle email click
-  const handleEmailClick = (e) => {
-    e.preventDefault();
-    const email = 'sakatislam7960@gmail.com';
-    const subject = encodeURIComponent('Portfolio Contact Request');
-    const body = encodeURIComponent('Hello, I am reaching out regarding...');
-    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
-  };
+ 
 
   return (
-    <div className="min-h-screen text-white relative overflow-hidden px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen mt-20 text-white relative overflow-hidden px-4 sm:px-6 lg:px-8">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
@@ -107,15 +100,16 @@ const PortfolioLanding = () => {
                 <Download className="w-4 h-4" />
               </motion.a>
 
-              <motion.button 
-                onClick={handleEmailClick}
+              <motion.a 
+                // onClick={handleEmailClick}
+                href='#contact'
                 className="border border-purple-500/30 hover:border-purple-500 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg flex items-center gap-2 transition-all cursor-pointer z-10 text-sm sm:text-base"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
                 Contact Me
                 <Mail className="w-4 h-4" />
-              </motion.button>
+              </motion.a>
             </div>
             
             {/* Rest of the component remains the same */}
